@@ -1,0 +1,47 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 48px;
+}
+
+.card {
+  max-width: 525px;
+  height: 458px;
+  background: #ffffff;
+  box-shadow: 0px 3.5px 5.5px rgba(0, 0, 0, 0.02);
+  border-radius: 16px;
+  padding: 24px;
+  margin: 0 auto;
+}
+
+.breed {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  color: #373d59;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.cardImage {
+  max-width: 92%;
+  height: 80%;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 12px;
+  object-fit: cover;
+}
+
+.btn {
+  background: linear-gradient(180deg, #9b7efa 0%, #7e5ae1 100%);
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  border: none;
+  padding: 10px 24px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}

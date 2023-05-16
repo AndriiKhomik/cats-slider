@@ -5,7 +5,7 @@ const API_KEY =
 const BASE_URL = "https://api.thecatapi.com";
 
 const baseQuery = fetchBaseQuery({
-  baseUrl: `${BASE_URL}/v1/images/search?limit=10&api_key=${API_KEY}`,
+  baseUrl: `${BASE_URL}/v1/images/search?limit=10&has_breeds=1&api_key=${API_KEY}`,
 });
 
 export const apiSlice = createApi({
