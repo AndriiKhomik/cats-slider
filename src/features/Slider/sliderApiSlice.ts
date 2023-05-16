@@ -24,6 +24,7 @@ export const sliderApiSlice = apiSlice.injectEndpoints({
   }),
 });
 
+// @ts-ignore
 export const { useGetCatsQuery } = sliderApiSlice;
 
 export const selectCatsResult = sliderApiSlice.endpoints.getCats.select("cats");
